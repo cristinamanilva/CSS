@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ZOOlandia</title>
+    <meta name="author" content="Cristina Cozar Sedeño">
+    <meta name="description" content="Página de un Zoo con varios enlaces a distintas páginas">
+    <meta name="keywords" content="zoolandia, aviario, cumbres, sabana, pinguinario">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+
+    <style>
+        body {
+            background-color: #3c3e3f;
+            font-family: Arial, sans-serif;
+            margin-top: 80px;
+            margin-left: 160px;
+            margin-right: 160px;
+        }
+
+        #cabecera {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #logo {
+            width: 65%;
+        }
+
+        #menu {
+            display: flex;
+            width: 100%;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .espacio {
+            width: 20%;
+        }
+
+        .seccion {
+            width: 15%;
+            margin: 0;
+        }
+
+        .imagen-menu {
+            width: 90%;
+        }
+
+        #contenido {
+            display: flex;
+            justify-content: right;
+            text-align: center;
+            width: 79%;
+            margin-top: 40px;
+        }
+
+        #eslogan {
+            color: #fcd122;
+            font-size: 120%;
+        }
+
+        #pie {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        .texto-footer {
+            color: white;
+        }
+
+        #logo-formacion {
+            width: 8%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header id="cabecera">
+        <img id="logo" src="img/zoolandia.gif" alt="Logo de Zoolandia" title="Logo de Zoolandia">
+    </header>
+
+    <!-- Navegación -->
+    <nav id="menu">
+
+        <div class="espacio"></div>
+
+        <div class="seccion">
+            <a href="aviario.html">
+                <img class="imagen-menu" src="img/aviario.jpg" alt="Foto de aviario" title="Foto de aviario">
+            </a>
+        </div>
+
+        <div class="seccion">
+            <a href="sabana.html">
+                <img class="imagen-menu" src="img/sabana.jpg" alt="Foto de sabana" title="Foto de sabana">
+            </a>
+        </div>
+
+        <div class="seccion">
+            <a href="cumbres.html">
+                <img class="imagen-menu" src="img/cumbres.jpg" alt="Foto de cumbres" title="Foto de cumbres">
+            </a>
+        </div>
+
+        <div class="seccion">
+            <a href="pinguinario.html">
+                <img class="imagen-menu" src="img/pinguinario.jpg" alt="Foto de pinguinario" title="Foto de pinguinario">
+            </a>
+        </div>
+
+        <div class="espacio"></div>
+
+    </nav>
+
+    <!-- Contenido -->
+    <main id="contenido">
+        <p id="eslogan">aventura en un entorno natural</p>
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="pie">
+        <p class="texto-footer">
+            Desarrollado por PROGRAMA DE EMPLEO Y FORMACIÓN 2025/29/46/PED1/0246
+        </p>
+
+        <img id="logo-formacion" src="img/logo.png" alt="Logo de la formación" title="Logo de la formación">
+    </footer>
+
+</body>
+
+</html>

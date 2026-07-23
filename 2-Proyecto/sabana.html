@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sabana</title>
+    <meta name="author" content="Cristina Cozar Sedeño">
+    <meta name="description" content="Página de un Zoo sobre la sabana">
+    <meta name="keywords" content="zoolandia, aviario, cumbres, sabana, pinguinario">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+
+    <style>
+        body {
+            background-color: #000000;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin-top: 80px;
+            margin-left: 160px;
+            margin-right: 160px;
+        }
+
+        #cabecera {
+            width: 100%;
+            overflow: auto;
+        }
+
+        #imagen-sabana {
+            float: left;
+            margin-right: 15px;
+        }
+
+        #logo {
+            width: 50%;
+        }
+
+        #titulo {
+            color: #fcd122;
+        }
+
+        .parrafo-superior {
+            margin-bottom: 0;
+        }
+
+        .parrafo-inferior {
+            margin-top: 0;
+        }
+
+        #contenido {
+            clear: both;
+            margin-top: 40px;
+        }
+
+        #subtitulo {
+            margin-bottom: 0;
+        }
+
+        #descripcion {
+            margin-top: 0;
+        }
+
+        #tabla-felinos {
+            text-align: center;
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+
+        .celda-tabla {
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+
+        .marquesina {
+            display: flex;
+            gap: 10px;
+        }
+
+        #volver {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #enlace-inicio {
+            text-decoration: none;
+        }
+
+        #texto-enlace {
+            color: #b8f991;
+            font-size: 120%;
+        }
+
+        #pie {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        .texto-footer {
+            color: white;
+        }
+
+        #logo-formacion {
+            width: 8%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header id="cabecera">
+
+        <div>
+            <img id="imagen-sabana" src="img/sabana.jpg" alt="Foto de la sabana" title="Foto de la sabana">
+        </div>
+
+        <div>
+
+            <img id="logo" src="img/zoolandia.gif" alt="Logo de Zoolandia" title="Logo de Zoolandia">
+
+            <h3 id="titulo">
+                La Sabana Africana, una recreación natural donde numerosos felinos conviven y de los que podemos disfrutar.
+            </h3>
+
+            <p class="parrafo-superior">
+                ¿QUÉ ES UN FELINO?
+            </p>
+
+            <p class="parrafo-inferior">
+                Los félidos o comúnmente llamados felinos (Felidae) son una familia de mamíferos placentarios del orden Carnivora.
+                Poseen un cuerpo esbelto, oído agudo, hocico corto y excelente vista. Son los mamíferos cazadores más sigilosos.
+                La mayoría consume exclusivamente carne e ignora cualquier otra comida que no sea una presa viva.
+                La capturan con sus afiladas garras y suelen matarla de un único y tenaz mordisco.
+            </p>
+
+            <p>
+                A excepción de los guepardos, todos los félidos pueden retraer las uñas de sus garras dentro de una vaina protectora mientras no las usan.
+            </p>
+
+            <p>
+                Hay alrededor de cuarenta especies en esta familia; muchas de las cuales escasean en la actualidad,
+                porque han sido objeto de caza por su piel, para aprovechar partes de su cuerpo, o porque su hábitat
+                está siendo destruido, como pasa con el lince ibérico (Lynx pardinus), el félido recuperado del peligro de extinción.
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- Contenido -->
+    <main id="contenido">
+
+        <h4 id="subtitulo">
+            <em>Clasificación de felinos</em>
+        </h4>
+
+        <p id="descripcion">
+            Las diferentes especies de felinos que encontramos son:
+        </p>
+
+        <table id="tabla-felinos">
+
+            <tr>
+                <th class="celda-tabla">Clasificación</th>
+                <th class="celda-tabla">Foto</th>
+            </tr>
+
+            <tr>
+
+                <td class="celda-tabla">Pantherinae</td>
+
+                <td class="celda-tabla">
+
+                    <marquee class="marquesina" direction="right" scrollamount="10">
+
+                        <img src="img/leon.jpg" width="30%" alt="León" title="León">
+                        <img src="img/neofelis.jpg" width="33%" alt="Neofelis" title="Neofelis">
+                        <img src="img/jaguar.JPG" width="30%" alt="Jaguar" title="Jaguar">
+                        <img src="img/leopardo2.jpg" width="15%" alt="Leopardo" title="Leopardo">
+                        <img src="img/leoNieves.jpg" width="13%" alt="Leopardo de las Nieves" title="Leopardo de las Nieves">
+                        <img src="img/tigre.jpg" width="13%" alt="Tigre" title="Tigre">
+
+                    </marquee>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td class="celda-tabla">Felinae</td>
+
+                <td class="celda-tabla">
+
+                    <marquee class="marquesina" direction="right" scrollamount="10">
+
+                        <img src="img/pantilane.jpg" width="30%" alt="Lince" title="Lince">
+                        <img src="img/pumaRaro.jpg" width="27%" alt="Puma gato" title="Puma gato">
+                        <img src="img/gatoPescador.jpg" width="30%" alt="Gato pescador" title="Gato pescador">
+                        <img src="img/leopardo.jpg" width="30%" alt="Leopardo" title="Leopardo">
+                        <img src="img/puma.jpeg" width="16%" alt="Puma" title="Puma">
+                        <img src="img/guepardo.jpg" width="25%" alt="Guepardo" title="Guepardo">
+
+                    </marquee>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </main>
+
+    <!-- Volver -->
+    <nav id="volver">
+
+        <a id="enlace-inicio" href="index.html">
+            <span id="texto-enlace">VOLVER A INICIO</span>
+        </a>
+
+    </nav>
+
+    <!-- Pie de página -->
+    <footer id="pie">
+
+        <p class="texto-footer">
+            Desarrollado por PROGRAMA DE EMPLEO Y FORMACIÓN 2025/29/46/PED1/0246
+        </p>
+
+        <img id="logo-formacion"
+             src="img/logo.png"
+             alt="Logo de la formación"
+             title="Logo de la formación">
+
+    </footer>
+
+</body>
+
+</html>

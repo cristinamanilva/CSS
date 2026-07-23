@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aviario</title>
+    <meta name="author" content="Cristina Cozar Sedeño">
+    <meta name="description" content="Página de un Zoo sobre el aviario">
+    <meta name="keywords" content="zoolandia, aviario, cumbres, sabana, pinguinario">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+
+    <style>
+        body {
+            background-color: #000000;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin-top: 80px;
+            margin-left: 160px;
+            margin-right: 160px;
+        }
+
+        #cabecera {
+            width: 100%;
+            overflow: auto;
+        }
+
+        #imagen-aviario {
+            float: left;
+            margin-right: 15px;
+        }
+
+        #logo {
+            width: 50%;
+        }
+
+        #titulo {
+            color: #fcd122;
+        }
+
+        .parrafo-superior {
+            margin-bottom: 0;
+        }
+
+        .parrafo-inferior {
+            margin-top: 0;
+        }
+
+        #contenido {
+            clear: both;
+            margin-top: 40px;
+        }
+
+        #subtitulo {
+            margin-bottom: 0;
+        }
+
+        #descripcion {
+            margin-top: 0;
+        }
+
+        #volver {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #enlace-inicio {
+            text-decoration: none;
+        }
+
+        #texto-enlace {
+            color: #b8f991;
+            font-size: 120%;
+        }
+
+        #pie {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        .texto-footer {
+            color: white;
+        }
+
+        #logo-formacion {
+            width: 8%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header id="cabecera">
+
+        <!-- Imagen -->
+        <div>
+            <img id="imagen-aviario" src="img/aviario.jpg" alt="Foto de aviario" title="Foto de aviario">
+        </div>
+
+        <!-- Logo y texto -->
+        <div>
+
+            <img id="logo" src="img/zoolandia.gif" alt="Logo de Zoolandia" title="Logo de Zoolandia">
+
+            <h3 id="titulo">
+                AVIARIO EXÓTICO un lugar donde disfrutar de los coloridos plumajes de aves en libertad
+            </h3>
+
+            <p class="parrafo-superior">
+                ¿QUÉ ES UN AVE EXÓTICA?
+            </p>
+
+            <p class="parrafo-inferior">
+                Generalmente las aves exóticas son aves no autóctonas, que provienen de las selvas tropicales de América,
+                de África y de Australia, sus hábitats naturales. También podemos encontrar algunas especies, como los
+                canarios no amarillos, que son considerados exóticos originalmente en la naturaleza, sino que han sido
+                creados mediante un proceso selectivo.
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- Contenido principal -->
+    <main id="contenido">
+
+        <h4 id="subtitulo">
+            <em>Clasificación de aves tropicales</em>
+        </h4>
+
+        <p id="descripcion">
+            Las diferentes especies de aves tropicales que encontramos son:
+        </p>
+
+        <ul>
+            <li><strong>Psittaciformes</strong>: guacamayos, loros, pericos, cotorras, periquitos, cacatúas y lories.</li>
+            <li><strong>Passeriformes</strong>: aves canoras de colores vistosos (jilguero, pinzón, canario, abubilla, oropéndola).</li>
+            <li><strong>Columbiformes</strong>: palomas, incluidas las domésticas.</li>
+            <li><strong>Galliformes</strong>: pollos, codornices, pavos o faisanes.</li>
+        </ul>
+
+    </main>
+
+    <!-- Volver -->
+    <nav id="volver">
+        <a id="enlace-inicio" href="index.html">
+            <span id="texto-enlace">VOLVER A INICIO</span>
+        </a>
+    </nav>
+
+    <!-- Pie de página -->
+    <footer id="pie">
+
+        <p class="texto-footer">
+            Desarrollado por PROGRAMA DE EMPLEO Y FORMACIÓN 2025/29/46/PED1/0246
+        </p>
+
+        <img id="logo-formacion" src="img/logo.png" alt="Logo de la formación" title="Logo de la formación">
+
+    </footer>
+
+</body>
+
+</html>

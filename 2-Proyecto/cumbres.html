@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cumbres</title>
+    <meta name="author" content="Cristina Cozar Sedeño">
+    <meta name="description" content="Página de un Zoo sobre las cumbres">
+    <meta name="keywords" content="zoolandia, aviario, cumbres, sabana, pinguinario">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png">
+
+    <style>
+        body {
+            background-color: #000000;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin-top: 80px;
+            margin-left: 160px;
+            margin-right: 160px;
+        }
+
+        #cabecera {
+            width: 100%;
+            overflow: auto;
+        }
+
+        #imagen-cumbres {
+            float: left;
+            margin-right: 15px;
+        }
+
+        #logo {
+            width: 50%;
+        }
+
+        #titulo {
+            color: #fcd122;
+        }
+
+        .parrafo-superior {
+            margin-bottom: 0;
+        }
+
+        .parrafo-inferior {
+            margin-top: 0;
+        }
+
+        #contenido {
+            clear: both;
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .seccion {
+            width: 50%;
+        }
+
+        .subtitulo {
+            margin-bottom: 0;
+        }
+
+        .descripcion {
+            margin-top: 0;
+        }
+
+        .texto-marron {
+            color: brown;
+        }
+
+        #contenedor-mapa {
+            display: flex;
+            gap: 10px;
+        }
+
+        #mapa {
+            border: 0;
+        }
+
+        #imagen-monos {
+            width: 50%;
+        }
+
+        #audio {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        #volver {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #enlace-inicio {
+            text-decoration: none;
+        }
+
+        #texto-enlace {
+            color: #b8f991;
+            font-size: 120%;
+        }
+
+        #pie {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        .texto-footer {
+            color: white;
+        }
+
+        #logo-formacion {
+            width: 8%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header id="cabecera">
+
+        <div>
+            <img id="imagen-cumbres" src="img/cumbres.jpg" alt="Foto de cumbres" title="Foto de cumbres">
+        </div>
+
+        <div>
+
+            <img id="logo" src="img/zoolandia.gif" alt="Logo de Zoolandia" title="Logo de Zoolandia">
+
+            <h3 id="titulo">
+                CUMBRES EXÓTICAS un lugar donde disfrutar de los coloridos monos en libertad
+            </h3>
+
+            <p class="parrafo-superior">
+                ¿QUÉ ES UN MONO DE LAS CUMBRES?
+            </p>
+
+            <p class="parrafo-inferior">
+                Hace referencia a los primates del Proyecto Carayá, el primer y único centro de rehabilitación
+                de primates de Argentina, ubicado a solo 11 km de La Cumbre en la provincia de Córdoba.
+                Alberga más de 300 animales, principalmente monos carayá (aulladores) y capuchinos
+                rescatados del tráfico ilegal.
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- Contenido principal -->
+    <main id="contenido">
+
+        <section class="seccion">
+
+            <h4 class="subtitulo">
+                <em>Clasificación de monos</em>
+            </h4>
+
+            <p class="descripcion">
+                Las diferentes especies de
+                <span class="texto-marron">MONO-RROSCOSAS</span>
+                que encontramos las podemos visualizar:
+            </p>
+
+            <video controls autoplay muted>
+                <source src="video/tiposMono.mp4" type="video/mp4">
+                Este navegador no soporta este formato.
+            </video>
+
+        </section>
+
+        <section class="seccion">
+
+            <h4 class="subtitulo">
+                <em>Donde encontrar Proyecto Carayá</em>
+            </h4>
+
+            <p class="descripcion">
+                Las diferentes especies de
+                <span class="texto-marron">MONO-RROSCOSAS</span>
+                que encontramos las podemos visualizar en este vídeo:
+            </p>
+
+            <div id="contenedor-mapa">
+
+                <iframe id="mapa"
+                    src="https://www.google.com/maps/embed?pb=!4v1784195983768!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ2NpTXFoV3c.!2m2!1d-30.99436281647188!2d-64.50869080855179!3f43.12391798292049!4f1.3042414782660217!5f3.3202655325354775"
+                    width="500"
+                    height="350"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+
+                <img id="imagen-monos" src="img/mono.png" alt="Imagen de monos" title="Monos de Carayá">
+
+            </div>
+
+            <div id="audio">
+
+                <audio controls>
+                    <source src="audio/naturaleza.mp3" type="audio/mp3">
+                    Este audio no está disponible en este navegador.
+                </audio>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Volver -->
+    <nav id="volver">
+
+        <a id="enlace-inicio" href="index.html">
+            <span id="texto-enlace">VOLVER A INICIO</span>
+        </a>
+
+    </nav>
+
+    <!-- Pie de página -->
+    <footer id="pie">
+
+        <p class="texto-footer">
+            Desarrollado por PROGRAMA DE EMPLEO Y FORMACIÓN 2025/29/46/PED1/0246
+        </p>
+
+        <img id="logo-formacion" src="img/logo.png"
+            alt="Logo de la formación"
+            title="Logo de la formación">
+
+    </footer>
+
+</body>
+
+</html>
