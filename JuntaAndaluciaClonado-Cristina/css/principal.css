@@ -1,0 +1,488 @@
+@charset "utf-8";
+
+body {
+  margin: 0 auto;
+  font-family:
+    Pier Sans,
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header > div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  gap: 20px;
+}
+
+header > nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  gap: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.menu > div > a,
+.menu > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+}
+
+header > div > img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+
+.bloqueVacioH {
+  width: 2%;
+}
+
+main {
+  margin-top: 20px;
+  margin-right: 260px;
+  margin-left: 420px;
+}
+
+main > p {
+  font-size: 0.9em;
+}
+
+.section1 {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  gap: 20px;
+}
+
+#flechaIzq {
+  position: absolute;
+  top: 50%;
+  left: 434px;
+}
+
+#flechaDer {
+  position: absolute;
+  top: 50%;
+  right: 780px;
+}
+
+#flechaIzq > button,
+#flechaDer > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 48px;
+  height: 48px;
+
+  border-radius: 25px 0px 25px 25px;
+
+  background-color: white;
+  color: #2a2a2a;
+}
+
+#flechaIzq > button:hover,
+#flechaDer > button:hover {
+  background-color: #4dbd69;
+  color: #2a2a2a;
+}
+
+.section1Part2 > a {
+  margin-top: 8px;
+  display: flex;
+}
+
+.section1Part2 > a > button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+
+  width: 148px;
+  height: 48px;
+
+  border-radius: 25px;
+}
+
+.section1Part2 > a > button:hover {
+  color: #ebebeb;
+  background-color: #2a2a2a;
+}
+
+.section2 {
+  margin-right: 202px;
+}
+
+.carruselFotos > div {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  margin-left: 4px;
+}
+
+.carruselFotos > span {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+}
+
+.carruselFotos > span > hr {
+  margin: 0;
+  margin-top: 4px;
+  width: 132px;
+  border: 3px solid #2a2a2a;
+}
+
+.texto,
+.texto > p {
+  margin-top: 20px;
+  font-family:
+    Inter,
+    sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
+  font-size: 0.95em;
+  font-weight: 400;
+  color: rgb(42, 42, 42);
+}
+
+.horario > div {
+  background-color: #ebebeb;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.horario > div > p {
+  font-family:
+    Inter,
+    sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
+  font-size: 0.85em;
+  font-weight: 400;
+  color: rgb(42, 42, 42);
+  padding: 4px 30px;
+}
+
+#horarioItalic {
+  font-style: italic;
+}
+
+.amenities {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  gap: 100px;
+
+  font-family:
+    Inter,
+    sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
+  font-size: 0.9em;
+  color: rgb(42, 42, 42);
+  line-height: 18px;
+}
+
+.amenities > div > ul {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.amenities > div > ul > li {
+  list-style-type: none;
+}
+
+.amenities > div > ul > li:first-child {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.related {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  gap: 20px;
+}
+
+.related > div > p {
+  font-weight: bold;
+}
+
+.nearby > a {
+  gap: 30px;
+}
+
+.nearby > a > button {
+  border-radius: 10px 10px 0 0;
+  padding: 19px 34px;
+  font-size: 1em;
+  background-color: #4dbd69;
+}
+
+#botonNegro {
+  color: white;
+  background-color: #2a2a2a;
+}
+
+.nearby > a > button:hover {
+  background-color: #2a2a2a;
+  cursor: pointer;
+  color: white;
+}
+
+.tarjetas {
+  background-color: #2a2a2a;
+  margin-top: 2px;
+}
+
+.tarjetas > section {
+  margin-left: 150px;
+  margin-right: 150px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tarjetas > section > article {
+  margin-top: 30px;
+
+  width: 342px;
+  height: 340px;
+
+  background: white;
+  color: black;
+
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.tarjetas > section > article > div > p {
+  display: flex;
+  gap: 10px;
+  margin-left: 15px;
+}
+
+#bajar > article {
+  margin-bottom: 30px;
+}
+
+.travel {
+  background-color: #2a2a2a;
+  color: white;
+  height: 500px;
+}
+
+.travel > div {
+  margin-right: 260px;
+  margin-left: 320px;
+  margin-top: 4px;
+
+  font-size: 1.2em;
+}
+
+.travel > div > nav > section,
+.seleccionables > section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.seleccionables > section > div > a > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 52px;
+
+  border-radius: 25px 0px 25px 25px;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.Practical {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 5px;
+  height: 700px;
+
+  background-image: url("../img/footer/img_footer_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-size: 100%;
+
+  color: white;
+
+  font-size: 1.2em;
+}
+
+footer > div {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+footer > hr {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logos {
+  padding: 32px 12px;
+}
+
+.logos > img {
+  width: 30%;
+}
+
+.imagene {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+.redes {
+  display: flex;
+  justify-content: right;
+}
+
+.opciones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opciones > div > ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.opciones > div > ul > li {
+  list-style-type: none;
+}
+
+.footTexto {
+  margin-top: 20px;
+}
+
+.footTexto > div {
+  width: 40%;
+}
+
+.footTexto > p {
+  width: 100%;
+}
+
+.footTexto > p:first-of-type {
+  text-align: right;
+}
+
+.redireccionar {
+  position: fixed;
+  border-radius: 50%;
+}
+
+.redireccionar > button {
+  position: fixed;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+
+  width: 40px;
+  height: 40px;
+}
+
+.cookies {
+  bottom: 50px;
+  left: 20px;
+}
+
+.accesibilidad {
+  bottom: 50px;
+  right: 50px;
+}
+
+.accesibilidad > button {
+  color: blue;
+}
