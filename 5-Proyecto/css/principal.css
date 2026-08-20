@@ -1,0 +1,523 @@
+@charset "utf-8";
+
+@media screen and (max-width: 380px) {
+  body {
+    margin: 0 auto;
+    font-family:
+      Pier Sans,
+      sans-serif;
+    font-size: 1.2em;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 180%;
+  }
+
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  header {
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 60%;
+    width: 100%;
+    gap: 5px;
+  }
+
+  header > div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 20%;
+  }
+
+  header > div > img {
+    width: fit-content;
+  }
+
+  header > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headNav {
+    text-align: center;
+    width: 50%;
+    gap: 5px;
+  }
+
+  .headNav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    gap: 5px;
+  }
+
+  .menu > div > a,
+  .menu > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 70%;
+  }
+
+  main > p {
+    font-size: 0.9em;
+  }
+
+  .section1 {
+    display: block;
+  }
+
+  .section1Part1 > img {
+    width: 100%;
+  }
+
+  #flechaIzq {
+    position: absolute;
+    top: 37%;
+    left: 15px;
+  }
+
+  #flechaDer {
+    position: absolute;
+    top: 37%;
+    right: 15px;
+  }
+
+  #flechaIzq > button,
+  #flechaDer > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 16px;
+    height: 16px;
+
+    font-size: 80%;
+
+    border-radius: 25px 0px 25px 25px;
+
+    background-color: white;
+    color: #2a2a2a;
+  }
+
+  #flechaIzq > button:hover,
+  #flechaDer > button:hover {
+    background-color: #4dbd69;
+    color: #2a2a2a;
+  }
+
+  .carruselFotos > div {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-left: 4px;
+  }
+
+  .carruselFotos > span {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+  }
+
+  .carruselFotos > span > hr {
+    margin: 0;
+    margin-top: 4px;
+    width: 108px;
+    border: 3px solid #2a2a2a;
+  }
+
+  .carruselFotos > div > img {
+    width: 30%;
+  }
+
+  .section2Part2 {
+    text-align: center;
+  }
+
+  .section2Part2 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section2Part2 > div > a {
+    display: flex;
+  }
+
+  .section2Part2 > div > a > button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+
+    width: 148px;
+    height: 48px;
+
+    border-radius: 25px;
+  }
+
+  .section2Part2 > a > button:hover {
+    color: #ebebeb;
+    background-color: #2a2a2a;
+  }
+
+  .texto,
+  .texto > p {
+    margin-top: 20px;
+    font-family:
+      Inter,
+      sans-serif,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      Segoe UI,
+      Roboto,
+      Helvetica Neue,
+      Arial,
+      Noto Sans,
+      sans-serif,
+      Apple Color Emoji,
+      Segoe UI Emoji,
+      Segoe UI Symbol,
+      Noto Color Emoji;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: rgb(42, 42, 42);
+  }
+
+  .horario {
+    text-align: center;
+  }
+
+  .horario > div {
+    background-color: #ebebeb;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .horario > div > p {
+    font-family:
+      Inter,
+      sans-serif,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      Segoe UI,
+      Roboto,
+      Helvetica Neue,
+      Arial,
+      Noto Sans,
+      sans-serif,
+      Apple Color Emoji,
+      Segoe UI Emoji,
+      Segoe UI Symbol,
+      Noto Color Emoji;
+    font-size: 1em;
+    font-weight: 400;
+    color: rgb(42, 42, 42);
+    padding: 4px 30px;
+  }
+
+  #horarioItalic {
+    font-style: italic;
+  }
+
+  .amenities {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    text-align: justify;
+    gap: 50px;
+
+    font-family:
+      Inter,
+      sans-serif,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      Segoe UI,
+      Roboto,
+      Helvetica Neue,
+      Arial,
+      Noto Sans,
+      sans-serif,
+      Apple Color Emoji,
+      Segoe UI Emoji,
+      Segoe UI Symbol,
+      Noto Color Emoji;
+    font-size: 1em;
+    color: rgb(42, 42, 42);
+    line-height: 18px;
+  }
+
+  .amenities > div > ul {
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .amenities > div > ul > li {
+    list-style-type: none;
+  }
+
+  .amenities > div > ul > li:first-child {
+    list-style-type: none;
+    font-weight: bold;
+  }
+
+  .related {
+    display: block;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .related > div > p {
+    font-weight: bold;
+  }
+
+  .nearby {
+    display: block;
+  }
+
+  .nearby > a > button {
+    border-radius: 10px 10px 0 0;
+    font-size: 1em;
+    background-color: #4dbd69;
+    width: 100%;
+    height: 40px;
+    margin-top: 2px;
+  }
+
+  #botonNegro {
+    color: white;
+    background-color: #2a2a2a;
+  }
+
+  .nearby > a > button:hover {
+    background-color: #2a2a2a;
+    cursor: pointer;
+    color: white;
+  }
+
+  .tarjetas {
+    margin: 0 auto;
+    background-color: #2a2a2a;
+    margin-top: 2px;
+    height: 3110px;
+  }
+
+  .tarjetas > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tarjetas > section > article {
+    margin-bottom: 15px;
+
+    width: 342px;
+    height: 360px;
+
+    background: white;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+  tarjetas > section > article > div > img {
+    margin-left: 10px;
+  }
+
+  .tarjetas > section > article > div > p {
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+  }
+
+  .travel {
+    background-color: #2a2a2a;
+    color: white;
+    height: 570px;
+  }
+
+  .travel > div > h4,
+  .travel > div > h2,
+  .travel > div {
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 1.1em;
+  }
+
+  .seleccionables > section > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .seleccionables > section > div > a > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 52px;
+
+    border-radius: 25px 0px 25px 25px;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .Practical {
+    margin-top: 20px;
+  }
+
+  footer {
+    margin-top: 5px;
+
+    background-image: url("../img/footer/img_footer_bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+
+    color: white;
+
+    font-size: 1.2em;
+  }
+
+  footer > div {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  footer > hr {
+    border: 1px solid white;
+    margin-top: 20px;
+  }
+
+  .logos {
+    text-align: center;
+    padding: 12px;
+  }
+
+  .logos > img {
+    width: 50%;
+  }
+
+  .imagene > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .imagene > div > img {
+    width: 40%;
+  }
+
+  .redes {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .opciones > div > ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .opciones > div > ul > li {
+    list-style-type: none;
+  }
+
+  #hastag {
+    text-align: right !important;
+  }
+
+  .footTexto {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+
+  .footTexto > p:first-of-type {
+    text-align: right;
+  }
+
+  .redireccionar {
+    position: fixed;
+    border-radius: 50%;
+  }
+
+  .redireccionar > button {
+    position: fixed;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2em;
+
+    width: 40px;
+    height: 40px;
+  }
+
+  .cookies {
+    bottom: 50px;
+    left: 325px;
+  }
+
+  .accesibilidad {
+    bottom: 120px;
+    left: 325px;
+  }
+
+  .accesibilidad > button {
+    color: blue;
+  }
+}
